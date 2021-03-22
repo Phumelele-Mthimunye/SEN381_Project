@@ -1,0 +1,10 @@
+C:\Users\Thipe\Source\Repos\thipe-k\SEN381_Project\PremierServiceSolutions_V1.0.0\PremierServiceSolutions_V1.0.0\obj\Debug\PremierServiceSolutions_V1.0.0.csprojAssemblyReference.cache
+C:\Users\Thipe\Source\Repos\thipe-k\SEN381_Project\PremierServiceSolutions_V1.0.0\PremierServiceSolutions_V1.0.0\obj\Debug\PremierServiceSolutions_V1._0._0.PresentationLayer.Service.Index.resources
+C:\Users\Thipe\Source\Repos\thipe-k\SEN381_Project\PremierServiceSolutions_V1.0.0\PremierServiceSolutions_V1.0.0\obj\Debug\PremierServiceSolutions_V1._0._0.Properties.Resources.resources
+C:\Users\Thipe\Source\Repos\thipe-k\SEN381_Project\PremierServiceSolutions_V1.0.0\PremierServiceSolutions_V1.0.0\obj\Debug\PremierServiceSolutions_V1.0.0.csproj.GenerateResource.cache
+C:\Users\Thipe\Source\Repos\thipe-k\SEN381_Project\PremierServiceSolutions_V1.0.0\PremierServiceSolutions_V1.0.0\obj\Debug\PremierServiceSolutions_V1.0.0.csproj.CoreCompileInputs.cache
+C:\Users\Thipe\Source\Repos\thipe-k\SEN381_Project\PremierServiceSolutions_V1.0.0\PremierServiceSolutions_V1.0.0\bin\Debug\PremierServiceSolutions_V1.0.0.exe.config
+C:\Users\Thipe\Source\Repos\thipe-k\SEN381_Project\PremierServiceSolutions_V1.0.0\PremierServiceSolutions_V1.0.0\bin\Debug\PremierServiceSolutions_V1.0.0.exe
+C:\Users\Thipe\Source\Repos\thipe-k\SEN381_Project\PremierServiceSolutions_V1.0.0\PremierServiceSolutions_V1.0.0\bin\Debug\PremierServiceSolutions_V1.0.0.pdb
+C:\Users\Thipe\Source\Repos\thipe-k\SEN381_Project\PremierServiceSolutions_V1.0.0\PremierServiceSolutions_V1.0.0\obj\Debug\PremierServiceSolutions_V1.0.0.exe
+C:\Users\Thipe\Source\Repos\thipe-k\SEN381_Project\PremierServiceSolutions_V1.0.0\PremierServiceSolutions_V1.0.0\obj\Debug\PremierServiceSolutions_V1.0.0.pdb

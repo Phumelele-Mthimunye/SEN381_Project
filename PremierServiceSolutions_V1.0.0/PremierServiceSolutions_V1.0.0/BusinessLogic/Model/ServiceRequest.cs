@@ -4,19 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PremierServiceSolutions_V1._0._0
+namespace PremierServiceSolutions_V1._0._0.BusinessLogic
 {
     class ServiceRequest
     {
         private string serviceRequestID;
-        private List<Problem> issues;
+        private List<Job> issues;
         private List<Call> calls;
         private bool isClosed;
         private Employee technacian;
 
         public string ServiceRequestID { get => serviceRequestID; set => serviceRequestID = value; }
         public bool IsClosed { get => isClosed; set => isClosed = value; }
-        internal List<Problem> Issues { get => issues; set => issues = value; }
+        internal List<Job> Issues { get => issues; set => issues = value; }
         internal List<Call> Calls { get => calls; set => calls = value; }
         internal Employee Technacian { get => technacian; set => technacian = value; }
 
@@ -28,7 +28,7 @@ namespace PremierServiceSolutions_V1._0._0
             }
         }
 
-        internal Problem Consists
+        internal Job Consists
         {
             get => default;
             set

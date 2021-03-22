@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PremierServiceSolutions_V1._0._0
+namespace PremierServiceSolutions_V1._0._0.BusinessLogic
 {
-    class Problem
+    class Job
     {
         private Message message;
         private Equipment equipment;
 
-        public Problem(Message message, Equipment equipment)
+        public Job(Message message, Equipment equipment)
         {
             this.message = message;
             this.equipment = equipment;
@@ -30,7 +30,7 @@ namespace PremierServiceSolutions_V1._0._0
 
         public override bool Equals(object obj)
         {
-            return obj is Problem problem &&
+            return obj is Job problem &&
                    EqualityComparer<Message>.Default.Equals(message, problem.message) &&
                    EqualityComparer<Equipment>.Default.Equals(equipment, problem.equipment);
         }

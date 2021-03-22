@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PremierServiceSolutions_V1._0._0
+namespace PremierServiceSolutions_V1._0._0.BusinessLogic
 {
     abstract class ServiceContract
     {
         protected string contractID;
         protected string contractType;
+        protected double price;
         protected DateTime startON;
         protected DateTime elabaseON;
 

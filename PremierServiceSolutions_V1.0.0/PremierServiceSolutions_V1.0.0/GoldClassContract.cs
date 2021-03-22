@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PremierServiceSolutions_V1._0._0
 {
-    class GoldClassContract : ServiceContract
+    class GoldClassContract 
     {
     }
 }

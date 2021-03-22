@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace PremierServiceSolutions_V1._0._0
 {
-    class PlatinumClassContract : ServiceContract
+    class PlatinumClassContract 
     {
-        public PlatinumClassContract(string contractID, string contractType, DateTime startON, DateTime elabaseON) : base(contractID, contractType, startON, elabaseON)
-        {
-        }
+        //public PlatinumClassContract(string contractID, string contractType, DateTime startON, DateTime elabaseON) : base(contractID, contractType, startON, elabaseON)
+        //{
+        //}
     }
 }
