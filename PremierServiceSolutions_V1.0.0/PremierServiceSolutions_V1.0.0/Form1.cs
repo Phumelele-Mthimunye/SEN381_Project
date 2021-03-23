@@ -16,5 +16,10 @@ namespace PremierServiceSolutions_V1._0._0
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

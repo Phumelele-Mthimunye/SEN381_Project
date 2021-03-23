@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\PremierServiceSolutions_V1.0.0",
-    "\\PremierServiceSolutions_V1.0.0\\PremierServiceSolutions_V1.0.0"
+    "\\PremierServiceSolutions_V1.0.0\\PremierServiceSolutions_V1.0.0",
+    "\\PremierServiceSolutions_V1.0.0\\PremierServiceSolutions_V1.0.0\\BusinessLogic",
+    "\\PremierServiceSolutions_V1.0.0\\PremierServiceSolutions_V1.0.0\\BusinessLogic\\Model"
   ],
-  "SelectedNode": "\\PremierServiceSolutions_V1.0.0\\PremierServiceSolutions_V1.0.0.sln",
+  "SelectedNode": "\\PremierServiceSolutions_V1.0.0\\PremierServiceSolutions_V1.0.0\\BusinessLogic\\Model\\Call.cs",
   "PreviewInSolutionExplorer": false
 }

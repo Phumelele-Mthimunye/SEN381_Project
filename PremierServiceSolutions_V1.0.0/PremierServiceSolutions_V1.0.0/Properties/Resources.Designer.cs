@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace PremierServiceSolutions_V1._0._0.Properties
+namespace BusinessLogicLayer._0._0.Properties
 {
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
