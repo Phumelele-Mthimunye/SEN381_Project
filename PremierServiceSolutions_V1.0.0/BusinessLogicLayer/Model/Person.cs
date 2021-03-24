@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLogicLayer
 {
-    abstract class Person
+    public abstract class Person
     {
         private string firstName;
         private string lastName;
@@ -19,6 +19,7 @@ namespace BusinessLogicLayer
         protected string Email { get => email; set => email = value; }
         protected string Tel { get => tel; set => tel = value; }
         public string IdNumber { get => idNumber; set => idNumber = value; }
+        public string DisplayName { get => LastName + " " + firstName.Substring(0, 1).ToUpper(); }
 
         protected Person(string firstName, string lastName, string email, string tel, string idNumber)
         {
@@ -28,5 +29,6 @@ namespace BusinessLogicLayer
             this.tel = tel;
             this.idNumber = idNumber;
         }
+        protected Person() { }
     }
 }

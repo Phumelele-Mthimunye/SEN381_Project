@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\PremierServiceSolutions_V1.0.0",
-    "\\PremierServiceSolutions_V1.0.0\\PremierServiceSolutions_V1.0.0",
-    "\\PremierServiceSolutions_V1.0.0\\PremierServiceSolutions_V1.0.0\\BusinessLogic",
-    "\\PremierServiceSolutions_V1.0.0\\PremierServiceSolutions_V1.0.0\\BusinessLogic\\Model"
+    "\\PremierServiceSolutions_V1.0.0"
   ],
-  "SelectedNode": "\\PremierServiceSolutions_V1.0.0\\PremierServiceSolutions_V1.0.0\\BusinessLogic\\Model\\Call.cs",
+  "SelectedNode": "\\PremierServiceSolutions_V1.0.0\\DataAccessLayer",
   "PreviewInSolutionExplorer": false
 }

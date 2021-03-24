@@ -61,5 +61,11 @@
     <Compile Include="ServiceController.cs" />
     <Compile Include="TechnicianOperation.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{d5f18e8c-76b8-48ac-b32b-047bc32ddb8f}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
