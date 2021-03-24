@@ -3,16 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DataAccessLayer;
 
 namespace BusinessLogicLayer
 {
-    class Employee : Person
+   public class Employee : Person
     {
         private string empNo;
         private string postion;
         private string department;
         private Context operations;
         private bool isAvailable;
+
+        public Employee()
+        {
+            FirstName = "T";
+            LastName = "Employee";
+            IdNumber = "EmployeeTest";
+        }
 
         public Employee(string firstName, string lastName, string email, string tel, string idNumber) : base(firstName, lastName, email, tel, idNumber)
         {
@@ -56,5 +64,15 @@ namespace BusinessLogicLayer
         {
             return base.ToString();
         }
+        /// <summary>
+        /// this saves employee data to the database
+        /// </summary>
+        /// <returns></returns>
+        public bool saveData()
+        {
+            EmployeeDataAccess dataAccess = new EmployeeDataAccess();
+            return dataAccess.insertEmp(new string[] { empNo,department,IdNumber,LastName,FirstName,Email,Tel});
+        }
+
     }
 }

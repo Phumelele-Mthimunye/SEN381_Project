@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLogicLayer
 {
-    class Message:IComparable
+    public class Message:IComparable
     {
         private string timeStamp;
         private string owner;

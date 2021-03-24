@@ -1,0 +1,6 @@
+C:\Users\Thipe\source\repos\thipe-k\SEN381_Project\PremierServiceSolutions_V1.0.0\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Thipe\source\repos\thipe-k\SEN381_Project\PremierServiceSolutions_V1.0.0\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Thipe\source\repos\thipe-k\SEN381_Project\PremierServiceSolutions_V1.0.0\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Thipe\source\repos\thipe-k\SEN381_Project\PremierServiceSolutions_V1.0.0\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Thipe\source\repos\thipe-k\SEN381_Project\PremierServiceSolutions_V1.0.0\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Thipe\source\repos\thipe-k\SEN381_Project\PremierServiceSolutions_V1.0.0\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

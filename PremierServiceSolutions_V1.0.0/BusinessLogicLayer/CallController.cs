@@ -6,22 +6,18 @@ using System.Threading.Tasks;
 
 namespace BusinessLogicLayer
 {
-    class CallController
+    public class CallController
     {
         private bool isTracked;
         private Call call;
+        /// <summary>
+        /// returns current managed call object
+        /// </summary>
+        public Call Call { get => call; set => call = value; }
 
         public CallController(Call call)
         {
             this.call = call;
-        }
-
-        internal Call contains
-        {
-            get => default;
-            set
-            {
-            }
         }
 
         private void trackingCall()

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLogicLayer
 {
-    class Client: Person
+    public class Client: Person
     {
         private string clientNo;
         private string address;
@@ -14,6 +14,13 @@ namespace BusinessLogicLayer
 
         public Client(string firstName, string lastName, string email, string tel, string idNumber) : base(firstName, lastName, email, tel, idNumber)
         {
+        }
+        public Client()
+        {
+            FirstName = "T";
+            LastName = "Cleint ";
+            IdNumber = "ClientTest";
+
         }
 
         internal ServiceContract Consist
