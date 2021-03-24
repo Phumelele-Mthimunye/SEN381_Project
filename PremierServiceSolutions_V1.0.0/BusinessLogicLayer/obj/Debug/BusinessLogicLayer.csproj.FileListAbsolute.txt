@@ -1,0 +1,9 @@
+C:\Users\Thipe\Source\Repos\thipe-k\SEN381_Project\PremierServiceSolutions_V1.0.0\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+C:\Users\Thipe\Source\Repos\thipe-k\SEN381_Project\PremierServiceSolutions_V1.0.0\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+C:\Users\Thipe\Source\Repos\thipe-k\SEN381_Project\PremierServiceSolutions_V1.0.0\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csprojAssemblyReference.cache
+C:\Users\Thipe\Source\Repos\thipe-k\SEN381_Project\PremierServiceSolutions_V1.0.0\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\Thipe\Source\Repos\thipe-k\SEN381_Project\PremierServiceSolutions_V1.0.0\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+C:\Users\Thipe\Source\Repos\thipe-k\SEN381_Project\PremierServiceSolutions_V1.0.0\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
+C:\Users\Thipe\source\repos\thipe-k\SEN381_Project\PremierServiceSolutions_V1.0.0\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Thipe\source\repos\thipe-k\SEN381_Project\PremierServiceSolutions_V1.0.0\BusinessLogicLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Thipe\source\repos\thipe-k\SEN381_Project\PremierServiceSolutions_V1.0.0\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete

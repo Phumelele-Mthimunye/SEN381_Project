@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLogicLayer
 {
-    class Call
+    public class Call
     {
         private Person caller;
         private Person reciever;
@@ -23,8 +23,8 @@ namespace BusinessLogicLayer
         public DateTime StartedAt { get => startedAt;}
         public DateTime EndedAt { get => endedAt; set => endedAt = value; }
         public List<Message> Messages { get => messages; set => messages = value; }
-        internal Person Caller { get => caller;  }
-        internal Person Reciever { get => reciever;}
+        public Person Caller { get => caller;  }
+        public Person Reciever { get => reciever;}
 
         internal Person Consists
         {
