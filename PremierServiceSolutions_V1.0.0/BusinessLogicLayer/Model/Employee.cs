@@ -29,6 +29,7 @@ namespace BusinessLogicLayer
         public string EmpNo { get => empNo; set => empNo = value; }
         public string Postion { get => postion; set => postion = value; }
         public string Department { get => department; set => department = value; }
+        public bool IsAvailable { get => isAvailable; set => isAvailable = value; }
         internal Context Operations { get => operations; set => operations = value; }
 
         internal Context Consist
@@ -46,33 +47,36 @@ namespace BusinessLogicLayer
                    LastName == employee.LastName &&
                    IdNumber == employee.IdNumber &&
                    empNo == employee.empNo &&
-                   postion == employee.postion;
+                   postion == employee.postion &&
+                   isAvailable == employee.isAvailable;
         }
 
-        public override int GetHashCode()
-        {
-            int hashCode = 1354008810;
-            hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(FirstName);
-            hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(LastName);
-            hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(IdNumber);
-            hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(empNo);
-            hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(postion);
-            return hashCode;
-        }
 
         public override string ToString()
         {
             return base.ToString();
         }
+        
+
+        public override int GetHashCode()
+        {
+            int hashCode = -447241237;
+            hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(empNo);
+            hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(postion);
+            hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(department);
+            hashCode = hashCode * -1521134295 + EqualityComparer<Context>.Default.GetHashCode(operations);
+            hashCode = hashCode * -1521134295 + isAvailable.GetHashCode();
+            return hashCode;
+        }
+        EmployeeDataAccess dataAccess = new EmployeeDataAccess();
         /// <summary>
-        /// this saves employee data to the database
+        /// Saves employee data to the database
         /// </summary>
         /// <returns></returns>
-        public bool saveData()
+        public bool SaveData()
         {
-            EmployeeDataAccess dataAccess = new EmployeeDataAccess();
-            return dataAccess.insertEmp(new string[] { empNo,department,IdNumber,LastName,FirstName,Email,Tel});
+            return dataAccess.InsertEmployee(empNo, department, IdNumber, LastName, FirstName, Email, Tel, Convert.ToString(isAvailable));
         }
-
+        
     }
 }

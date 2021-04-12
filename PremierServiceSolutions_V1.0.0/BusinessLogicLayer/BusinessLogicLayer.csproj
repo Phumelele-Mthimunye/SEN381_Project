@@ -45,6 +45,8 @@
     <Compile Include="CallController.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Context.cs" />
+    <Compile Include="ExternalUser.cs" />
+    <Compile Include="InternalUser.cs" />
     <Compile Include="Model\Address.cs" />
     <Compile Include="Model\Call.cs" />
     <Compile Include="Model\Client.cs" />

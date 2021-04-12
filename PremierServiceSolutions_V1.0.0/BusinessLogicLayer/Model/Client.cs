@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DataAccessLayer;
 
 namespace BusinessLogicLayer
 {
@@ -23,6 +24,12 @@ namespace BusinessLogicLayer
 
         }
 
+        public Client(string clientNo, string address)
+        {
+            this.clientNo = clientNo;
+            this.address = address;
+        }
+
         internal ServiceContract Consist
         {
             get => default;
@@ -30,6 +37,9 @@ namespace BusinessLogicLayer
             {
             }
         }
+
+        public string ClientNo { get => clientNo; set => clientNo = value; }
+        public string Address { get => address; set => address = value; }
 
         public override bool Equals(object obj)
         {
@@ -51,6 +61,15 @@ namespace BusinessLogicLayer
         public override string ToString()
         {
             return base.ToString();
+        }
+        /// <summary>
+        /// this saves Client data to the database
+        /// </summary>
+        /// <returns></returns>
+        public bool SaveData()
+        {
+            ClientDataAccess dataAccess = new ClientDataAccess();
+            return dataAccess.InsertClient(clientNo, address, IdNumber, LastName, FirstName, Email, Tel);
         }
     }
 }
